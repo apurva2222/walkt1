@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>forms</title>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatum voluptate inventore sequi expedita corporis nequ
-        e fuga obcaecati. Quas hic reiciendis repellat voluptatibus voluptatum itaque omnis? Soluta error fugiat et?</p>
+    <h1>This is form tutorial</h1>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Roll no.: <input type="number" name="myRoll">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>4
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Are you Eligiblity: <input type="checkbox" name="myEligiblity">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> FeMale <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            write about yourself: <br> <textarea name="myText" id="" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
 </body>
+
 </html>
